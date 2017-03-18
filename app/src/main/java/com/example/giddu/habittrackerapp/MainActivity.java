@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void fetchHabits(){
+    private Cursor fetchHabits(){
 
         HabitDbHelper mDbHelper = new HabitDbHelper(this);
 
@@ -49,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
         };
 
         Cursor cursor = db.query(HabitEntry.TABLE_NAME, projection, null, null, null, null, null);
+
+        return cursor;
 
 
     }

@@ -15,11 +15,11 @@ public class HabitContract {
         public final static String TABLE_NAME = "actions";
 
         public final static String _ID = BaseColumns._ID;
-        public final static String COLUMN_DAY = "weight";
-        public final static String COLUMN_CALORIES = "name";
-        public final static String COLUMN_STEPS = "breed";
-        public final static String COLUMN_SLEEP = "gender";
-        public final static String COLUMN_WALK_DOG_TIME = "weight";
+        public final static String COLUMN_DAY = "day";
+        public final static String COLUMN_CALORIES = "calories";
+        public final static String COLUMN_STEPS = "steps";
+        public final static String COLUMN_SLEEP = "sleep";
+        public final static String COLUMN_WALK_DOG_TIME = "dogWalk";
         public final static String COLUMN_MOOD = "mood";
 
 
